@@ -64,5 +64,5 @@ def part_two(puzzle_input):
         src = map_dest_to_src(maps, result)
 
         for i in range(0, len(seeds), 2):
-            if seeds[i] <= src < seeds[i] + seeds[i+1]:
+            if seeds[i] <= src < seeds[i] + seeds[i + 1]:
                 return result
